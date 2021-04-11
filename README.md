@@ -5,4 +5,5 @@ A visualization of the following pathfinding algorithms:
 * A-star
 
 Lee's algorithm works on grid-based maps and it relies on recursion.
+
 The other two use a weighted graph to find the optimal solution.
