@@ -4,4 +4,5 @@ A visualization of the following pathfinding algorithms:
 * Dijkstra
 * A-star
 
-The first one works only on a grid-based map while the other two use a weighted graph to find the optimal solution
+Lee's algorithm works on grid-based maps and it relies on recursion.
+The other two use a weighted graph to find the optimal solution.
