@@ -7,6 +7,8 @@ import math
 import copy
 import heapq
 
+#start of the program
+
 class Gui:
     
     def __init__(self):
