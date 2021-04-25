@@ -8,8 +8,8 @@ Lee's algorithm works on grid-based maps and it relies on recursion. The other t
 
 This is an example of Lee's algorithm:
 
-![Lee example](https://raw.githubusercontent.com/gmag95/Shortest_path_finder/main/example_image/Lee_example.PNG)
+![Lee example](https://raw.githubusercontent.com/gmag95/Shortest_path_finder/main/example_image/Lee_example.gif)
 
 This is an example of the A-star algorithm:
 
-![A-star example](https://raw.githubusercontent.com/gmag95/Shortest_path_finder/main/example_image/A-star_example.PNG)
+![A-star example](https://raw.githubusercontent.com/gmag95/Shortest_path_finder/main/example_image/A-star_example.gif)
