@@ -37,16 +37,16 @@ class Gui:
         #initialization of the bottom part of the window
         
         self.bottomframe=tk.LabelFrame(self.root, pady=2, relief="flat")
-        self.bottomframe.grid(row=26, columnspan=25)
+        self.bottomframe.grid(row=26, columnspan=25, sticky="w"+"e")
         
         self.reset_but=tk.Button(self.bottomframe, text="Reset button", command=self.reset)
-        self.reset_but.grid(row=0, column=0, padx=50)
+        self.reset_but.grid(row=0, column=0, padx=(120, 0))
         
         self.start_but=tk.Button(self.bottomframe, text="Start", command=start)
-        self.start_but.grid(row=0, column=1, padx=50)
+        self.start_but.grid(row=0, column=1, padx=110)
         
         self.time_but=tk.Label(self.bottomframe, font = ('calibri', 12))
-        self.time_but.grid(row=0, column=2, padx=50)
+        self.time_but.grid(row=0, column=2, padx=30)
         self.start_time=datetime.datetime.now()
         self.timefunc()
         
@@ -126,7 +126,7 @@ class Gui:
         
         top=tk.Toplevel()
         top.title("")
-        top.geometry(f"{305}x{79}+{int((self.ws/2) - (200/2))}+{int((self.hs/2) - (79/2))}")
+        top.geometry(f"{305}x{79}+{int((self.ws/2) - (305/2))}+{int((self.hs/2) - (79/2))}")
         top.overrideredirect(True)
         top.lift(self.root)
         popframe=tk.LabelFrame(top)
@@ -152,7 +152,7 @@ class Gui:
         
         self.start_window=tk.Toplevel(self.root)
         self.start_window.title("")
-        self.start_window.geometry(f"{180}x{165}+{int((self.ws/2) - (200/2))}+{int((self.hs/2) - (79/2))}")
+        self.start_window.geometry(f"{180}x{165}+{int((self.ws/2) - (180/2))}+{int((self.hs/2) - (165/2))}")
         self.start_window.overrideredirect(True)
         self.start_window.lift(self.root)
         my_frame=tk.LabelFrame(self.start_window)
